@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.3WY9DQ6862.mcmore"
+    version   = "1.0.2">
+
+<name>Legazpiko Santikutzak 13</name>
+
+
+	<gap:platforms>
+		<gap:platform name="ios" />
+		<gap:platform name="android" minVersion="2.1" />
+		<gap:platform name="webos" />
+		<gap:platform name="symbian.wrt" />
+		<gap:platform name="blackberry" project="widgets"/>
+	</gap:platforms>
+
+  <feature name="http://api.phonegap.com/1.0/app"/>
+  <feature name="http://api.phonegap.com/1.0/device" />
+  <feature name="http://api.phonegap.com/1.0/network"/>
+  <feature name="http://api.phonegap.com/1.0/storage"/>
+
+	<icon src="imagenes/ermita_mirandaola.png" gap:role="default" />
+	<icon src="imagenes/ermita_mirandaola.png" width="96" height="96" />
+	<icon src="imagenes/ermita_mirandaola.png" width="72" height="72" />
+	<icon src="imagenes/ermita_mirandaola.png" width="48" height="48" />
+	<icon src="imagenes/ermita_mirandaola.png" width="36" height="36" />
+	<icon src="imagenes/icon1.png" gap:platform="ios" width="57" height="57" />
+    <icon src="imagenes/icon.png" gap:platform="ios" width="72" height="72" />
+    <icon src="imagenes/icon.png" gap:platform="ios" width="114" height="114" />
+    <icon src="imagenes/icon.png" gap:platform="ios" width="144" height="144" />
+
+	<preference name="splash-screen-duration" value="5000" />
+    <gap:splash src="imagenes/splash.png"  gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="imagenes/splash.png"  gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="imagenes/splash.png"  gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="imagenes/splash.png" gap:platform="android" gap:density="xhdpi" />
+	<gap:splash src="imagenes/splash.png" gap:platform="ios" width="320" height="480" />
+	<gap:splash src="imagenes/splash1.png" gap:platform="ios" width="640" height="960" />
+	<gap:splash src="imagenes/splash2.png" gap:platform="ios" width="768" height="1024" />
+	<gap:splash src="imagenes/splash3.png" gap:platform="ios" width="1024" height="768" />
+	<gap:splash src="imagenes/splash4.png" gap:platform="ios" width="640" height="1136" />
+
+	
+	<preference name="phonegap-version" value="2.5.0" />
+	<preference name="target-device" value="universal" />
+	<!-- <preference name="autorotate" value="false" readonly="true"/> -->
+	<preference name="webviewbounce" value="false" />
+	<!-- <preference name="stay-in-webview" value="true" /> -->
+
+
+	<access origin="*" />
+	<access origin="http://phonegap.com" />
+	<access origin="http://phonegap.com" subdomains="true" />
+	<access origin="http://phonegap.com" browserOnly="true" />
+
+
+<description>
+MC MORE
+</description>
+
+<author href="https://www.zuzen.es" email="info@zuzen.es">
+Zuzen</author>
+
+</widget>
